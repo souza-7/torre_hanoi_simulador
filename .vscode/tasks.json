@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Torre de Hanoi",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g", // Gera informações de depuração
+                "src/main.c",
+                "src/pilha.c",
+                "src/torre_hanoi.c",
+                "src/historico.c",
+                "-o",
+                "bin/torre_hanoi", // Nome do executável de saída
+                "-Wall", // Habilita todos os warnings
+                "-Wextra", // Habilita warnings extras
+                "-std=c11", // Padrão C11
+                "-lm" // Linka a biblioteca matemática se for usar (não necessário para este projeto, mas boa prática)
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}" // Executa o comando na raiz do projeto
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Tarefa de build para o Simulador da Torre de Hanoi"
+        }
+    ]
+}
