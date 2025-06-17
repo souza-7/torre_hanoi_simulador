@@ -1,9 +1,8 @@
 #ifndef TORRE_HANOI_H
 #define TORRE_HANOI_H
 
-#include "pilha.h" // Porque a torre de Hanói usa pilhas
+#include "pilha.h" 
 
-// Variáveis globais (declaradas como extern aqui, definidas em torre_hanoi.c)
 extern Pilha torreA, torreB, torreC;
 extern int numDiscosGlobal;   // Número de discos na partida atual
 extern int movimentosGlobais; // Contador de movimentos
