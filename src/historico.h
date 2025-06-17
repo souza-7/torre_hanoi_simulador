@@ -1,11 +1,10 @@
 #ifndef HISTORICO_H
 #define HISTORICO_H
 
-#include <stdio.h>   // Para FILE, fopen, fclose, fprintf, fscanf, fgets
-#include <stdlib.h>  // Para malloc, free
-#include <string.h>  // Para strcpy, strcmp, strncmp
+#include <stdio.h>   
+#include <stdlib.h>  
+#include <string.h>  
 
-// --- Estruturas de Dados para o Histórico ---
 
 // Estrutura para os dados de uma partida
 typedef struct {
