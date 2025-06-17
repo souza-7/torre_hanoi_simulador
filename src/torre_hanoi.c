@@ -6,7 +6,6 @@
 #include "torre_hanoi.h" 
 #include "historico.h"   
 
-// --- Variáveis Globais (definidas aqui) ---
 Pilha torreA, torreB, torreC;
 int numDiscosGlobal;
 int movimentosGlobais;
