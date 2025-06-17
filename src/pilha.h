@@ -4,7 +4,6 @@
 #include <stdlib.h> 
 #include <stdio.h>  
 
-// Estrutura para representar a Pilha
 typedef struct {
     int *discos; // Ponteiro para o array que armazenará os discos
     int topo;    // Índice do topo da pilha (-1 se vazia)
