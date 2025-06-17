@@ -6,7 +6,6 @@
 #include "torre_hanoi.h" 
 #include "historico.h"  
 
-// --- Protótipos de funções locais do main.c ---
 void exibirMenuPrincipal();
 void exibirMenuHistorico(); // <-- Novo protótipo para a função local
 
