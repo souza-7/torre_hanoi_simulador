@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h> // Para system() (limparTela)
-#include <string.h> // Para manipulação de strings (se necessário)
-#include <time.h>   // Para funções de tempo (se necessário)
-
-// Inclua os cabeçalhos do seu projeto
-#include "pilha.h"       // Para as estruturas e funções de pilha
-#include "torre_hanoi.h" // Inclui limparTela e jogarTorreHanoi
-#include "historico.h"   // Inclui as funções de histórico
+#include <stdlib.h> 
+#include <string.h>
+#include <time.h>   
+#include "pilha.h"       
+#include "torre_hanoi.h" 
+#include "historico.h"  
 
 // --- Protótipos de funções locais do main.c ---
 void exibirMenuPrincipal();
