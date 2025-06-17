@@ -1,12 +1,9 @@
-#include <stdio.h>    // Para operações de arquivo (FILE, fopen, fclose, fprintf, fscanf, fgets)
-#include <stdlib.h>   // Para alocação de memória (malloc, free)
-#include <string.h>   // Para manipulação de strings (strcpy, strcmp, strncmp)
-#include <time.h>     // Para time, localtime, strftime
-
-// --- Inclua os cabeçalhos do seu projeto AQUI ---
-// A ordem é importante para as dependências
-#include "historico.h"   // Este DEVE ser o primeiro cabeçalho do seu projeto a ser incluído
-#include "torre_hanoi.h" // Inclui para usar limparTela()
+#include <stdio.h>  
+#include <stdlib.h>  
+#include <string.h>   
+#include <time.h>     
+#include "historico.h"  
+#include "torre_hanoi.h"
 
 // Variável global que aponta para o primeiro nó da lista encadeada do histórico.
 // É 'extern' em historico.h e definida aqui para que seja acessível por outras funções.
