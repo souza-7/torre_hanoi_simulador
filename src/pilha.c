@@ -1,6 +1,5 @@
-#include "pilha.h" // Inclui o cabeçalho da pilha para os protótipos e a struct
+#include "pilha.h" 
 
-// Implementação das funções da Pilha
 
 void inicializarPilha(Pilha *p, int capacidade) { // <-- Recebe 'capacidade' agora!
     p->capacidade = capacidade;
