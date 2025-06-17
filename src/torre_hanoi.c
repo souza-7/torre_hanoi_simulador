@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h> // Para system()
-#include <string.h> // Para strcmp, strcpy
-#include <unistd.h> // Para usleep (em sistemas Unix-like, para pausas na exibição)
-
-// Inclui os cabeçalhos do seu projeto
+#include <stdlib.h> 
+#include <string.h>
+#include <unistd.h> 
 #include "pilha.h"
-#include "torre_hanoi.h" // Inclui os protótipos de suas próprias funções
-#include "historico.h"   // Necessário para interagir com o histórico (se você fosse adicionar partidas aqui)
+#include "torre_hanoi.h" 
+#include "historico.h"   
 
 // --- Variáveis Globais (definidas aqui) ---
 Pilha torreA, torreB, torreC;
