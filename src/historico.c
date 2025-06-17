@@ -5,8 +5,7 @@
 #include "historico.h"  
 #include "torre_hanoi.h"
 
-// Variável global que aponta para o primeiro nó da lista encadeada do histórico.
-// É 'extern' em historico.h e definida aqui para que seja acessível por outras funções.
+
 NoHistorico *historicoCabeca = NULL;
 
 // Implementação da função para adicionar um novo registro ao histórico (lista encadeada).
