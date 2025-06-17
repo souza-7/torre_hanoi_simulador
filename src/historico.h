@@ -6,7 +6,6 @@
 #include <string.h>  
 
 
-// Estrutura para os dados de uma partida
 typedef struct {
     char nomeJogador[50];          // Nome do jogador
     int modoJogo;                // Número de discos
