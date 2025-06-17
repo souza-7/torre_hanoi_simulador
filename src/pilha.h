@@ -1,8 +1,8 @@
 #ifndef PILHA_H
 #define PILHA_H
 
-#include <stdlib.h> // Para malloc, free
-#include <stdio.h>  // Para printf (em funções de erro/debug da pilha)
+#include <stdlib.h> 
+#include <stdio.h>  
 
 // Estrutura para representar a Pilha
 typedef struct {
